@@ -1,0 +1,44 @@
+.content {
+    margin-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    background-color: rgb(241, 239, 239);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    align-items: center;
+}
+.important {
+    margin-right: 10px;
+    background: rgb(56, 241, 50);
+}
+.delete {
+    background: rgb(252, 0, 0);
+}
+.btns {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.task {
+    font-size: 20px;
+    cursor: pointer;
+}
+.importantTask {
+    font-weight: bold;
+}
+.doneTask {
+    text-decoration: line-through;
+}
+
+.noImportant {
+    background: rgb(170, 250, 154);
+    margin-right: 10px;
+}
